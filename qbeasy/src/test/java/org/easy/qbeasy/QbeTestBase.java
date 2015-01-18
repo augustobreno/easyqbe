@@ -6,7 +6,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.easy.testeasy.jpa.TransactionTestBase;
+import org.easy.testeasy.LocalTransactionTestBase;
 import org.junit.Ignore;
 
 /**
@@ -15,7 +15,7 @@ import org.junit.Ignore;
  * @author augusto
  */
 @Ignore
-public class QbeTestBase extends TransactionTestBase {
+public class QbeTestBase extends LocalTransactionTestBase {
 
 	/**
 	 * Converte uma String em uma Data Formatada utilizando o formato padrão de data.
