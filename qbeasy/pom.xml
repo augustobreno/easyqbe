@@ -4,7 +4,7 @@
 
 	<groupId>org.easy</groupId>
 	<artifactId>qbeasy</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -81,7 +81,7 @@
 		<dependency>
 			<groupId>org.easy</groupId>
 			<artifactId>testeasy</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>

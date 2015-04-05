@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Mon Jan 12 13:49:16 GMT-03:00 2015:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-014a-df0c-a687-000007bb36f8 
-on database directory F:\desenv\workspaces\pessoal\qbeasy\qbeasy\target\testderby with class loader sun.misc.Launcher$AppClassLoader@1fe91485 
+Sun Apr 05 15:41:31 GMT-03:00 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-014c-8ae3-41b0-0000070a7628 
+on database directory F:\desenv\workspaces\pessoal\qbeasy\qbeasy\target\testderby with class loader sun.misc.Launcher$AppClassLoader@1d262f7c 
 Loaded from file:/C:/Users/Augusto/.m2/repository/org/apache/derby/derby/10.10.2.0/derby-10.10.2.0.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.7.0_60-b19
