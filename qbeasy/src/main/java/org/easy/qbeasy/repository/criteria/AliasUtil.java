@@ -131,7 +131,7 @@ public class AliasUtil {
 			if (alias == null) {
 				
 				// cria o alias 
-				alias = property.replaceAll("\\.", "");
+				alias = property.replaceAll("\\.", "") + "_"; // acrecente _ ao final para diferenciar do nome da propriedade
 				criteria.createAlias(property, alias, joinType == null ? getJoinFetch(JoinType.LEFT) : getJoinFetch(joinType));
 				aliasCache.put(property, alias);
 

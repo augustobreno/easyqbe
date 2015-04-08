@@ -6,7 +6,7 @@ package org.easy.qbeasy.api.operator;
  */
 public class Operators {
 
-	/** @see Equal*/
+	/** CaseSensitive=true @see Equal */
 	public static Equal equal() { return new Equal(); }
 	
 	/** @see Equal*/

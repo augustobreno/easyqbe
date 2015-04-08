@@ -121,8 +121,8 @@ public class CriteriaQBEProcessor <TIPO extends Identifiable> {
 		applyOperations(containerValido);
 	}
 
-	private Criteria initializeCriteria() {
-		return session.createCriteria(filter.getEntityClass());
+	protected Criteria initializeCriteria() {
+		return session.createCriteria(filter.getEntityClass(), filter.getEntityClass().getSimpleName().toLowerCase() + "_");
 	}
 	
 	/**
